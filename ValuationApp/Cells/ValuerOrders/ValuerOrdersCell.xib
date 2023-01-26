@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="129" id="6aB-to-g9R">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="129"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6aB-to-g9R" id="j3D-za-aA8">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QQH-6t-1gp">
+                        <rect key="frame" x="10" y="9.9999999999999982" width="373" height="20.333333333333329"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Адрес:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4O-Fm-C5Q">
+                                <rect key="frame" x="0.0" y="0.0" width="95" height="20.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIw-3L-A1j">
+                                <rect key="frame" x="103" y="0.0" width="270" height="20.333333333333332"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="4Y5-JL-NmY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="prk-fa-Qlb">
+                        <rect key="frame" x="10" y="34.333333333333336" width="373" height="20.333333333333336"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID пользователя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSY-oi-ch0">
+                                <rect key="frame" x="0.0" y="0.0" width="134.66666666666666" height="20.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="userIDLabel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIG-9c-PxP">
+                                <rect key="frame" x="136.66666666666663" y="0.0" width="236.33333333333337" height="20.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QQH-6t-1gp" firstAttribute="top" secondItem="j3D-za-aA8" secondAttribute="top" constant="10" id="1iB-R9-53L"/>
+                    <constraint firstAttribute="trailing" secondItem="prk-fa-Qlb" secondAttribute="trailing" constant="10" id="CWh-YB-pnI"/>
+                    <constraint firstAttribute="trailing" secondItem="QQH-6t-1gp" secondAttribute="trailing" constant="10" id="GUE-8z-6Zs"/>
+                    <constraint firstItem="QQH-6t-1gp" firstAttribute="leading" secondItem="j3D-za-aA8" secondAttribute="leading" constant="10" id="PrA-wg-par"/>
+                    <constraint firstItem="prk-fa-Qlb" firstAttribute="leading" secondItem="j3D-za-aA8" secondAttribute="leading" constant="10" id="Vq3-F4-5Ml"/>
+                    <constraint firstItem="prk-fa-Qlb" firstAttribute="top" secondItem="QQH-6t-1gp" secondAttribute="bottom" constant="4" id="cF9-Hf-Zo5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="119.84732824427481" y="49.647887323943664"/>
+        </tableViewCell>
+    </objects>
+</document>

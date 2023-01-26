@@ -1,0 +1,6 @@
+framework module Pods_ValuationApp {
+  umbrella header "Pods-ValuationApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
